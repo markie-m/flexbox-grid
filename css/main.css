@@ -113,19 +113,29 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 100%
 }
+/* align-items doesn't seem to affect this code for some reason. Why? Because I hadn't set the height to 100%! */
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  line-height: 1.15em;
+  font-size: 1em;
+  background-color: #b148b4;
+  height: 50%;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1%;
+  /* box-sizing: border-box; */
+}
+/* Still trying to figure out how to contain the contents within the boxes (have the boxes stretch to fit the content as it resizes responsively) rather than have the content spill out as the browser window is resized. Box-sizing: border-box & giving the content padding aren't doing the trick. */
+
+span {
+    color: #ffdd93
 }
 
 
