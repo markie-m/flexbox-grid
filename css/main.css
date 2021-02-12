@@ -151,15 +151,27 @@ main {
     align-items: center;
 }
 
-a,
-a:visited {
+main a,
+main a:visited {
     text-decoration: none;
     color: #4d0050;
     font-weight: 700;
 }
+main a:hover,
+main a:focus {
+    color: #ffd517;
+    text-shadow: 1px 1px 1px #4d0050;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #ffd517; 
+    font-weight: 700;
+}
 a:hover,
 a:focus {
-    color: #ffd517;
+    color: #fff;
     text-shadow: 1px 1px 1px #4d0050;
 }
 
