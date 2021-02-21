@@ -135,7 +135,8 @@ h1 {
 }
 
 main {
-    background-color:rgb(226, 195, 255);
+    /* background-color:rgb(226, 195, 255); */
+    background: linear-gradient(to top, rgb(210, 160, 245), 30%, rgb(179, 208, 245));
     height: 250px;
     width: 100%;
     padding: 2%;
