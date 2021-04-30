@@ -145,6 +145,10 @@ main {
     font-weight: 300;
 }
 
+p.intro {
+    margin: 5px 0;
+}
+
 main p:first-child {
     text-align: center;
     font-weight: 700;
